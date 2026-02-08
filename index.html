@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Animation & UI Components Lab</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>CSS Animation & UI Components Lab</h1>
+
+<!-- Loader Control -->
+<button onclick="toggleLoader()">Toggle Loader</button>
+<div id="loader" class="loader hidden"></div>
+
+<!-- Toggle Switch -->
+<div class="toggle-box">
+  <label class="switch">
+    <input type="checkbox" id="modeToggle" onchange="toggleMode()">
+    <span class="slider"></span>
+  </label>
+  <p id="modeText">Light Mode</p>
+</div>
+
+<!-- Animated Button -->
+<button class="glow-btn" onclick="countClicks()">Click Me</button>
+<p id="clickCount">Clicked: 0 times</p>
+
+<!-- Neumorphism Card -->
+<div class="neu-card">
+  <h3>Neumorphism UI</h3>
+  <p>Soft shadow modern design</p>
+</div>
+
+<!-- Glassmorphism Card -->
+<div class="glass-card">
+  <h3>Glassmorphism UI</h3>
+  <p>Blur & transparency effect</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
