@@ -74,9 +74,6 @@ Loaders are commonly used in real applications during API calls or page loading.
 * JavaScript tracks number of clicks
 * Updates UI in real time
 
-**Why interviewers like this:**
-Shows understanding of **state handling** and **user interaction tracking**.
-
 ---
 
 ### 4️⃣ Neumorphism UI Card
