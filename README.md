@@ -1,5 +1,5 @@
 
-# CSS Animation & UI Components Lab (JavaScript Enabled)
+# CSS Animation & UI Components Lab
 
 ## 📌 Project Overview
 
